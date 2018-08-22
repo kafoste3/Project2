@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace DecreaseCommute.MvcClient.Models
+namespace DecreaseCommute.Library.Models
 {
-    public partial class TravelPlan
+    public class TravelPlan
     {
         public string PlanId { get; set; }
         public string UserName { get; set; }
@@ -11,5 +12,6 @@ namespace DecreaseCommute.MvcClient.Models
         public string DestinationStation { get; set; }
 
         public TravelUser UserNameNavigation { get; set; }
+
     }
 }

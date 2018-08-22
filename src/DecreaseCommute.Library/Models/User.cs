@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace DecreaseCommute.MvcClient.Models
+namespace DecreaseCommute.Library.Models
 {
-    public partial class TravelUser
+    public class TravelUser
     {
         public TravelUser()
         {
